@@ -17,7 +17,7 @@ public class DescontosStep extends RunCucumberTest {
 
     @Dado("^que estou no site da qazando")
     public void acessar_site_qazando(){
-        
+
         // Maximizar pagina
         driver.manage().window().maximize();
 
@@ -54,6 +54,7 @@ public class DescontosStep extends RunCucumberTest {
 
     @Então("^eu vejo o código de desconto$")
     public void eu_vejo_o_código_de_desconto() throws InterruptedException {
+
         // driver PESQUISA o elemento por cssSelector (cssSelector pesquisa por id usando "#" ou classe usando "." por uma sequencia)
         // o id "cumpom" dentro dele a tag h2 e dentro dela span e traga o texto
         String texto_cupom = driver.findElement(By.cssSelector("#cupom > h2 > span")).getText();
