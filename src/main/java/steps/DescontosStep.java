@@ -17,6 +17,7 @@ public class DescontosStep extends RunCucumberTest {
 
     @Dado("^que estou no site da qazando")
     public void acessar_site_qazando(){
+        
         // Maximizar pagina
         driver.manage().window().maximize();
 
