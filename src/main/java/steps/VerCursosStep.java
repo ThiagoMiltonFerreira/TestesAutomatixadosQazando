@@ -28,8 +28,8 @@ public class VerCursosStep extends RunCucumberTest {
         Thread.sleep(2000);
     }
 
-    @Entao("^sou direcionado para pagina de cursos disponiveis pela qazando$")
-    public void sou_direcionado_para_pagina_de_cursos_disponiveis_pela_qazando(){
+    @Entao("^visualizo os cursos disponiveis pela qazando$")
+    public void visualizo_cursos_disponiveis_pela_qazando(){
 
         //o id "cursos" dentro dele a tag "div" e dentro dela "p" e traga o texto
         String texto = driver.findElement(By.cssSelector("#cursos > div > p")).getText();

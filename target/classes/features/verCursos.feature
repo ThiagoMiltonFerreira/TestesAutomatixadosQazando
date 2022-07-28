@@ -5,7 +5,7 @@
     quero saber quais os cursos oferecidos pelo site
     para que eu realize a compra
 
-  Cenario: Acesso a pagina ver cursos
+  Cenario: Visualizar cursos
   Dado que estou no site da qazando
   Quando eu clico no botão ver cursos
-  Então sou direcionado para pagina de cursos disponiveis pela qazando
+  Então visualizo os cursos disponiveis pela qazando
