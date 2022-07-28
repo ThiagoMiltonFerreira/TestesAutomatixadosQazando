@@ -33,6 +33,7 @@ public class RunCucumberTest {
 
         driver = new ChromeDriver();
     }
+
     @AfterClass // Esta anotação faz que depois de inciar o teste execute esta classe
     public static void stop(){
         // Fecha o navegador

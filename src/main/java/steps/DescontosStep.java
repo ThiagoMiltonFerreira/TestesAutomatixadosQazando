@@ -26,8 +26,9 @@ public class DescontosStep extends RunCucumberTest {
 
         // Valida se o botao id btn-ver-cursos esta ativo na tela
         Assert.assertEquals("Não acessou a aplicação",true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
-
     }
+
+
     @Quando("^eu preencho meu e-mail$")
     public void eu_preencho_meu_e_mail() throws InterruptedException {
 
