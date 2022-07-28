@@ -65,8 +65,7 @@ public class DescontosStep extends RunCucumberTest {
 
         // Aguarda 2 segudos para executar a proxima ação
         Thread.sleep(4000);
-
-
+        
     }
 
 
